@@ -1,28 +1,168 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #1a1a1a;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Parallax Section */
+#parallax {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+  text-align: center;
   color: #fff;
 }
-h1 {
-  font-size: 4em;
+
+.parallax-content {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.parallax-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.parallax-content p {
+  font-size: 1.5rem;
+  color: #ddd;
+}
+
+/* Sections */
+section {
+  padding: 40px 0;
+}
+
+#about {
+  background: #fff;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #666;
+}	
+
+#skills {
+  background: #f4f4f4;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.skill {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects {
+  background: #fff;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
   margin: 0;
-  animation: glow 2s infinite alternate;
-}
-p {
-  font-size: 1.5em;
-  margin-top: 10px;
-  opacity: 0.8;
-}
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
-  }
-  to {
-    text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc;
-  }
 }
