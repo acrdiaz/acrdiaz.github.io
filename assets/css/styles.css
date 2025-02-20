@@ -162,6 +162,7 @@ section {
 .contact-links {
   display: inline-block;
   text-align: left;
+  font-size: 0.9rem;
 }
 
 #contact ul {
@@ -174,6 +175,7 @@ section {
   display: block;
   background-color: #f4f4f4;
   padding: unset;
+  
 }
 
 /* Footer */
