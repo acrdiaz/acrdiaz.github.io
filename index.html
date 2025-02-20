@@ -3,42 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Be Right Back - acrdiaz</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #1a1a1a;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      color: #fff;
-    }
-    h1 {
-      font-size: 4em;
-      margin: 0;
-      animation: glow 2s infinite alternate;
-    }
-    p {
-      font-size: 1.5em;
-      margin-top: 10px;
-      opacity: 0.8;
-    }
-    @keyframes glow {
-      from {
-        text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
-      }
-      to {
-        text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc;
-      }
-    }
-  </style>
+  <title>Carlos Diaz - Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div>
-    <h1>Be Right Back</h1>
-    <p>We're making magic happen! ✨</p>
-  </div>
+  <!-- Parallax Background Section -->
+  <section id="parallax">
+    <div class="parallax-content">
+      <h1>Carlos Diaz</h1>
+      <p class="bottom-padding">Computer programmer | Designer | Technology explorer</p>
+      <h3>Welcome to my portfolio!</h3>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        We are transforming complex problems into seamless solutions.
+      </p>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <div class="skill-grid">
+        <div class="skill">
+          <h3>Front-End Development:</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JS, TS</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Back-End Development:</h3>
+          <ul>
+            <li>C#</li>
+            <li>PHP</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Database Management:</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>MSSQL</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Programming Languages:</h3>
+          <ul>
+            <li>C++</li>
+            <li>VBa</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Tools & Technologies:</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Soft Skills:</h3>
+          <ul>
+            <li>Team Lead</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>GrainBio</h3>
+          <p>
+            <span>Tech Stack: </span><br>
+            <span>LAMP, Email, Security Protocols.</span>
+        </p>
+          <a href="https://grainbio.com" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>AI Chabot</h3>
+          <p>
+            <span>Tech Stack: </span><br>
+            <span>PHP, Google AI Studio.</span>
+          </p>
+          <a href="https://github.com/acrdiaz/GoogleAI_Chatbot" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Contributions</h3>
+          <p>
+            <span>Tech Stack: </span><br>
+            <span>C# (EF), Vite-Vue, Python.</span>
+          </p>
+          <a href="https://github.com/acrdiaz?tab=repositories" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>
+        Contact Me: If you'd like to collaborate or just say hello, feel free to reach me on 
+        <a href="https://www.linkedin.com/in/carlosdiazconnects" target="_blank">LinkedIn</a> 
+        or follow me on <a href="https://www.instagram.com/acrdiaz10" target="_blank">Instagram</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Carlos Diaz. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
